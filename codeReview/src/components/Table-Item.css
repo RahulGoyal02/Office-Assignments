@@ -1,0 +1,37 @@
+
+
+
+.main_box {
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid lightcyan;
+    align-items: center;
+    padding-left: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+.main_box > div {
+    margin-right: 20px;
+    font-size: 16px;
+    color: rgb(4, 16, 51);
+    font-weight: 600;
+    text-align: left;
+    width: 100px;
+    overflow: hidden;
+}
+.deleted{
+    color:#fff;
+    background-color: red;
+    padding : 5px 10px;
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}

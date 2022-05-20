@@ -1,0 +1,28 @@
+
+.HeadingTab{
+    display: flex;
+    border: 4px solid rgb(4, 16, 51);;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.HeadingTab > div {
+
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(4, 16, 51);
+    font-weight: 600;
+   
+    text-align: left;
+    width: 100px;
+    overflow: hidden;
+} 
+.heading{
+    font-size: 36px;
+    font-weight: bold;
+}
+.reset-btn{
+    float: right;
+    margin: 10px;
+}
